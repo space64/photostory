@@ -16,3 +16,8 @@ var timelineSwiper = new Swiper ('.timeline .swiper-container', {
     }
   }
 });
+
+$("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("active");
+});

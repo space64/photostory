@@ -3,78 +3,92 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Photo Story</title>
+  <title>Huyên's Photo Story</title>
   
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css'>
+	<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800'>
+	<link rel="stylesheet" href="css/style.css">
 
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css'>
-<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800'>
-
-      <link rel="stylesheet" href="css/style.css">
-
+	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
   
 </head>
 
 <body>
-
-  
-<div class="container">
-  <h1 class="title">Huyen's Photo Story</h1>
-  <div class="timeline">
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide" style="background-image: url(img/2011.jpg);" data-year="2011">
-          <div class="swiper-slide-content"><span class="timeline-year">2011</span>
-            <h4 class="timeline-title">Vũng Tàu</h4>
-            <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
-        </div>
-        <div class="swiper-slide" style="background-image: url(img/2012.jpg);" data-year="2012">
-          <div class="swiper-slide-content"><span class="timeline-year">2012</span>
-            <h4 class="timeline-title">Bà Nà</h4>
-            <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
-        </div>
-        <div class="swiper-slide" style="background-image: url(img/2013.jpg);" data-year="2013">
-          <div class="swiper-slide-content"><span class="timeline-year">2013</span>
-            <h4 class="timeline-title">Đà Lạt</h4>
-            <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
-        </div>
-        <div class="swiper-slide" style="background-image: url(img/2014.jpg);" data-year="2014">
-          <div class="swiper-slide-content"><span class="timeline-year">2014</span>
-            <h4 class="timeline-title">Văng Lang</h4>
-            <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
-        </div>
-        <div class="swiper-slide" style="background-image: url(img/2015.jpg);" data-year="2015">
-          <div class="swiper-slide-content"><span class="timeline-year">2015</span>
-            <h4 class="timeline-title">Hội An</h4>
-            <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
-        </div>
-        <div class="swiper-slide" style="background-image: url(img/2016.jpg);" data-year="2016">
-          <div class="swiper-slide-content"><span class="timeline-year">2016</span>
-            <h4 class="timeline-title">Bảo Lộc</h4>
-            <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
-        </div>
+<div id="wrapper" class="active">  
+    <!-- Sidebar -->
+            <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+        <ul id="sidebar_menu" class="sidebar-nav">
+           <li class="sidebar-brand"><a id="menu-toggle" href="#">Menu<span id="main_icon" class="glyphicon glyphicon-align-justify"></span></a></li>
+        </ul>
+        <ul class="sidebar-nav" id="sidebar">
+          <li><a href="#">Cadastro<span class="sub_icon glyphicon glyphicon-link"></span></a></li>
+           <ul class="sidebar-nav" id="sidebar">
+                <li><a href="#">link1<span class="sub_icon glyphicon glyphicon-link"></span></a></li>
+                <li><a href="#">link2<span class="sub_icon glyphicon glyphicon-link"></span></a></li>
+           </ul>
+          <li><a href="#">Consulta<span class="sub_icon glyphicon glyphicon-link"></span></a></li>
+          <li><a href="#">Relatorio<span class="sub_icon glyphicon glyphicon-link"></span></a></li>
+        </ul>
       </div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-pagination"></div>
-    </div>
-  </div>
+          
+      <!-- Page content -->
+      <div id="page-content-wrapper">
+  
+		<div class="container">
+		  <h1 class="title">Huyên's Photo Story</h1>
+		  <div class="timeline">
+		    <div class="swiper-container">
+		      <div class="swiper-wrapper">
+		        <div class="swiper-slide" style="background-image: url(img/2011.jpg);" data-year="2011">
+		          <div class="swiper-slide-content"><span class="timeline-year">2011</span>
+		            <h4 class="timeline-title">Vũng Tàu</h4>
+		            <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		          </div>
+		        </div>
+		        <div class="swiper-slide" style="background-image: url(img/2012.jpg);" data-year="2012">
+		          <div class="swiper-slide-content"><span class="timeline-year">2012</span>
+		            <h4 class="timeline-title">Bà Nà</h4>
+		            <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		          </div>
+		        </div>
+		        <div class="swiper-slide" style="background-image: url(img/2013.jpg);" data-year="2013">
+		          <div class="swiper-slide-content"><span class="timeline-year">2013</span>
+		            <h4 class="timeline-title">Đà Lạt</h4>
+		            <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		          </div>
+		        </div>
+		        <div class="swiper-slide" style="background-image: url(img/2014.jpg);" data-year="2014">
+		          <div class="swiper-slide-content"><span class="timeline-year">2014</span>
+		            <h4 class="timeline-title">Văng Lang</h4>
+		            <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		          </div>
+		        </div>
+		        <div class="swiper-slide" style="background-image: url(img/2015.jpg);" data-year="2015">
+		          <div class="swiper-slide-content"><span class="timeline-year">2015</span>
+		            <h4 class="timeline-title">Hội An</h4>
+		            <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		          </div>
+		        </div>
+		        <div class="swiper-slide" style="background-image: url(img/2016.jpg);" data-year="2016">
+		          <div class="swiper-slide-content"><span class="timeline-year">2016</span>
+		            <h4 class="timeline-title">Bảo Lộc</h4>
+		            <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		          </div>
+		        </div>
+		      </div>
+		      <div class="swiper-button-prev"></div>
+		      <div class="swiper-button-next"></div>
+		      <div class="swiper-pagination"></div>
+		    </div>
+		  </div>
+		</div>
+	</div>
 </div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js'></script>
-
-  
-
-    <script  src="js/index.js"></script>
-
-
-
-
+  <script  src="js/index.js"></script>
 </body>
-
 </html>
